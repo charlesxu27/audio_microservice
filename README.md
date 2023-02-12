@@ -38,5 +38,4 @@ conn.close()
 
 ## System Design
 
-![Screen Shot 2023-02-12 at 13 03 44](https://user-images.githubusercontent.com/77357320/218336987-254fa656-08b0-453b-a58c-4efaa0c6917d.png)
-![Screen Shot 2023-02-12 at 13 03 52](https://user-images.githubusercontent.com/77357320/218336997-bb27374d-5c16-4373-842d-56a2f2afe6e8.png)
+![Screen Shot 2023-02-12 at 13 10 20](https://user-images.githubusercontent.com/77357320/218337307-17a5d98e-0c99-4621-bab4-6b543ce939b0.png)
