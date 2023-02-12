@@ -1,4 +1,4 @@
-# Microservice Description
+# Microservice Communication Contract
 
 ## Background
 
