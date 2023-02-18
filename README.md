@@ -2,11 +2,15 @@
 
 ## Background
 
-This microservice connects to a TUI to eneable users to predict noise levels from sound sources to specified receiver locations. Users can add entries to a library of “noise generators” by either octave-band or overall dBA. Users can then add a “source” to a location on the “sound map” and assign it one of the “sound generators” from the library. Once a “receiver” is added to the “sound map”, the user will be able to view a 2D representation of the “sound map” which shows relative distances between the elements and the predicted levels at the receivers. 
+This microservice connects to a TUI to enable users to predict noise levels from sound sources to specified receiver locations. Users can add entries to a library of “noise generators” by either octave-band or overall dBA. Users can then add a “source” to a location on the “sound map” and assign it one of the “sound generators” from the library. Once a “receiver” is added to the “sound map”, the user will be able to view a 2D representation of the “sound map” which shows relative distances between the elements and the predicted levels at the receivers. 
 
 ## Usage
 
 This microservice employs RPyC3, a python library faciliating remote prodedure calls, clustering, and distributed-computing. It allows the user to execute python code in a different process or machine altogether. Here, we have a client which sends data to the server. The server generates a 2D string representation of a sound map for the main TUI.
+
+### Setup
+
+0. Please clone the repository. To run the server, cd into the directory and run `python3 microservice.py` to start the server. The test client can by run with `python3 test_client.py`.
 
 ### Requesting Data
 
